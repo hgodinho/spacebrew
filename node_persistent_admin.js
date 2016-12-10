@@ -62,7 +62,7 @@ var setDefaultServerPort = function(newPort){
     }
 };
 
-var defaultHost = "localhost";
+var defaultHost = "http://gertrudes.herokuapp.com/index.html?server=gertrudes.herokuapp.com&port=80";
 var setDefaultHost = function(newHost){
     defaultHost = newHost;
 }
