@@ -17,7 +17,7 @@
 var logger = require('./logger')
 	, livePersister = require('./spacebrew_live_persist')
 	, port = 9000
-	, host = "localhost"
+	, host = "gertrudes.herokuapp.com/index.html?server=gertrudes.herokuapp.com&port=80"
 	, help = false
 	;
 
