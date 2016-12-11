@@ -384,7 +384,7 @@ var printHelpText = function(){
 
 var loadConfig = function(expectFile){
     try{
-        var config = fs.readFileSync("./data/persistent_config.json");
+        var config = fs.readFileSync("persistent_config.json");
         try{
             persistentRoutes = JSON.parse(config);
             //for each persistent route, re-define the RexEx
