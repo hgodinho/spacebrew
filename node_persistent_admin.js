@@ -240,7 +240,7 @@ var runCommand = function(command){
             }
         }
     } else if (command == "save"){
-        fs.writeFile('./data/persistent_config.json', JSON.stringify(persistentRoutes), function(err){
+        fs.writeFile('persistent_config.json', JSON.stringify(persistentRoutes), function(err){
             if (err){
                 l("there was an error while writing the config file");
                 l(err);
